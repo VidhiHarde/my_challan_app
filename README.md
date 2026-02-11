@@ -1,11 +1,26 @@
-# Sample Snack app
+# Traffic Awareness & Invoice Management - React Native App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+### Project Overview
+A cross-platform mobile application built with **React Native** and **Expo**. The app serves a dual purpose: educating users on traffic regulations and providing a streamlined interface for invoice management.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+### Key Features
+* **Tab-Based Navigation:** Implemented a `BottomTabNavigator` to allow seamless switching between "Traffic Rules" and "Invoice" modules.
+* **Custom UI Components:** Developed modular components like `AppHeader` and custom Tab Bar icons to enhance user experience.
+* **Responsive Styling:** Utilized `RFValue` (Responsive Font Value) to ensure the UI scales correctly across different mobile screen sizes and densities.
+* **Asset Integration:** Managed local image assets and integrated third-party vector icons (`Ionicons`) for a professional visual look.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+### Technologies Used
+* **React Native:** Core framework for building the native mobile interface.
+* **Expo:** Used for development environment setup and testing.
+* **React Navigation:** Implemented `createAppContainer` and `createBottomTabNavigator` for app flow.
+* **JavaScript (ES6):** Used class-based components and arrow functions for logic.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+### What I Learned
+* **Mobile Lifecycle:** Understood how mobile screens mount and unmount during navigation.
+* **Component Architecture:** Practiced breaking down a large app into smaller, reusable pieces (Screens vs. Components).
+* **Navigation Logic:** Learned how to pass state through navigators to dynamically update the UI based on the active route.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+### How to Run
+1. Install the **Expo Go** app on your mobile device.
+2. Clone this repository and run `npm install`.
+3. Run `npx expo start` and scan the QR code to view the app live.
